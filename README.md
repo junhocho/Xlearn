@@ -1,4 +1,16 @@
 # Xlearn
+
+## Install
+
+```
+conda create -n py27pth02 python=2.7 # recommended
+source activate py27pth02
+conda install numpy scipy pytorch=0.2 cuda80 -c soumith
+pip install sklearn torchvision
+```
+
+`conda install torchvision` might not work, causing [this error](https://discuss.pytorch.org/t/attributeerror-module-torchvision-transforms-has-no-attribute-randomresizedcrop/11489)
+
 Transfer Learning Library
 
 This is the transfer learning library for the following paper:
